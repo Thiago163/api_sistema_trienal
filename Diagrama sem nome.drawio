@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T02:25:48.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="hfDHrlsvmSdl3MDP846L" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T02:28:07.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="aCfKitwi_wj_wt1PvFRS" version="24.0.6" type="github">
   <diagram name="Página-1" id="hnOpUzWU4Sag2Yk5zKKM">
     <mxGraphModel dx="955" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -441,6 +441,24 @@
         </mxCell>
         <mxCell id="epobF9AIIoQ_hi80-rIL-6" value="ID_crt_alimento" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="47.5" y="246" width="45" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="epobF9AIIoQ_hi80-rIL-7" value="ID_localizacao" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="416" width="45" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="epobF9AIIoQ_hi80-rIL-8" value="descricao" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="246" width="45" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="epobF9AIIoQ_hi80-rIL-9" value="nome_tec" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="98" y="246" width="45" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="epobF9AIIoQ_hi80-rIL-10" value="tempo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="121" y="252" width="45" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="epobF9AIIoQ_hi80-rIL-11" value="nome_pop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="260" width="45" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="epobF9AIIoQ_hi80-rIL-12" value="producao" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="264" width="45" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
