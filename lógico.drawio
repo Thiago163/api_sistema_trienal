@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T01:56:26.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="XxN3Lg0tzK1zQtCbp48m" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T02:00:39.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="_zcRk5kPk3zg706uscYK" version="24.2.7" type="github">
   <diagram name="Página-1" id="t1cLTn4OYz4982EjOqe9">
     <mxGraphModel dx="1000" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry x="630" y="230" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iLFQ0ACJnZ7mzI6xklc3-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="410" width="140" height="180" as="geometry" />
+          <mxGeometry x="480" y="410" width="140" height="190" as="geometry" />
         </mxCell>
         <mxCell id="iLFQ0ACJnZ7mzI6xklc3-3" value="CAMPO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="410" width="140" height="30" as="geometry" />
@@ -50,13 +50,13 @@
           <mxGeometry x="480" y="440" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="iLFQ0ACJnZ7mzI6xklc3-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="390" width="140" height="240" as="geometry" />
+          <mxGeometry x="260" y="390" width="150" height="180" as="geometry" />
         </mxCell>
         <mxCell id="iLFQ0ACJnZ7mzI6xklc3-6" value="LOCALIZACAO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="390" width="140" height="30" as="geometry" />
+          <mxGeometry x="260" y="390" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iLFQ0ACJnZ7mzI6xklc3-7" value="&lt;div&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;cpf: PK&lt;/span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;nome&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;email&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium; background-color: initial;&quot;&gt;telefone&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;celular&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;cep&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;estado&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;cidade&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;rua&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;numero&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="260" y="420" width="140" height="190" as="geometry" />
+        <mxCell id="iLFQ0ACJnZ7mzI6xklc3-7" value="&lt;div&gt;&lt;font size=&quot;3&quot;&gt;ID_localizacao: PK&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;pais&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;estado&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;cidade&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;cep&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="420" width="150" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
