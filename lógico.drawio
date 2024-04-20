@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T01:42:16.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kgDA9wQ8jFs1GTRY-UgX" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T01:46:05.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="0O6In5TxZINy2nwhD67d" version="24.2.7" type="github">
   <diagram name="Página-1" id="t1cLTn4OYz4982EjOqe9">
     <mxGraphModel dx="583" dy="290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="N6FSGn3R9n-whMNJ9k06-7" value="LOGIN" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="180" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N6FSGn3R9n-whMNJ9k06-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ID_login: PK&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;gerente?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;senha&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="N6FSGn3R9n-whMNJ9k06-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ID_login: PK&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;gerente?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;email: FK&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;senha&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="460" y="210" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="N6FSGn3R9n-whMNJ9k06-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
