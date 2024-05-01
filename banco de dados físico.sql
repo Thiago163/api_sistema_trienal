@@ -3,7 +3,7 @@ CREATE DATABASE Mundo_verde;
 USE Mundo_verde;
 
 CREATE TABLE LOCALIZACAO (
-    id_localizacao INTEGER PRIMARY KEY,
+    id_localizacao INTEGER NOT NULL PRIMARY KEY IDENTITY,
     cep VARCHAR(20),
     estado VARCHAR(50),
     cidade VARCHAR(50),
@@ -14,7 +14,7 @@ CREATE TABLE LOCALIZACAO (
 );
 
 CREATE TABLE USUARIO (
-    id_usuario INTEGER PRIMARY KEY,
+    id_usuario INTEGER NOT NULL PRIMARY KEY IDENTITY,
     id_localizacao INTEGER,
     documento INTEGER,
     tipo_documento VARCHAR(20),
@@ -26,7 +26,7 @@ CREATE TABLE USUARIO (
 );
 
 CREATE TABLE AGUA (
-    id_agua INTEGER PRIMARY KEY,
+    id_agua INTEGER NOT NULL PRIMARY KEY IDENTITY,
     previsao_proxima_irrigacao DATE,
     quantidade_agua_muda DOUBLE,
     quantidade_agua_campo DOUBLE,
@@ -34,7 +34,7 @@ CREATE TABLE AGUA (
 );
 
 CREATE TABLE COMPONENTES (
-    id_componentes INTEGER PRIMARY KEY,
+    id_componentes INTEGER NOT NULL PRIMARY KEY IDENTITY,
     marca_adubo VARCHAR(100),
     previsao_proxima_adubo DATE,
     tipo_adubo VARCHAR(100),
@@ -42,7 +42,7 @@ CREATE TABLE COMPONENTES (
 );
 
 CREATE TABLE ALIMENTO (
-    id_alimento INTEGER PRIMARY KEY,
+    id_alimento INTEGER NOT NULL PRIMARY KEY IDENTITY,
     nome_alimento VARCHAR(100),
     marca_semente VARCHAR(100),
     data_plantacao DATE,
@@ -56,7 +56,7 @@ CREATE TABLE ALIMENTO (
 );
 
 CREATE TABLE CAMPO (
-    id_campo INTEGER PRIMARY KEY,
+    id_campo INTEGER NOT NULL PRIMARY KEY IDENTITY,
     id_localizacao INTEGER,
     id_agua INTEGER,
     id_alimento INTEGER,
@@ -73,7 +73,7 @@ CREATE TABLE CAMPO (
 );
 
 CREATE TABLE CAMPO_COMPONENTES (
-    id_campo INTEGER,
+    id_campo INTEGER NOT NULL PRIMARY KEY IDENTITY,
     id_componentes INTEGER,
     PRIMARY KEY (id_campo, id_componentes),
     FOREIGN KEY (id_campo) REFERENCES CAMPO(id_campo) ON DELETE RESTRICT,
