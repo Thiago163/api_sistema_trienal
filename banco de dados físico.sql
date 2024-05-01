@@ -49,10 +49,6 @@ CREATE TABLE ALIMENTO (
     tipo_alimento VARCHAR(50),
     periodo_plantacao DATE,
     data_validade_semente DATE,
-    id_agua INTEGER,
-    id_componentes INTEGER,
-    FOREIGN KEY (id_agua) REFERENCES AGUA(id_agua) ON DELETE RESTRICT,
-    FOREIGN KEY (id_componentes) REFERENCES COMPONENTES(id_componentes) ON DELETE RESTRICT
 );
 
 CREATE TABLE CAMPO (
@@ -60,6 +56,7 @@ CREATE TABLE CAMPO (
     id_localizacao INTEGER,
     id_agua INTEGER,
     id_alimento INTEGER,
+    id_componentes INTEGER,
     quantidade_mudas INTEGER,
     tamanho_campo DOUBLE,
     qualidade_solo VARCHAR(100),
@@ -70,6 +67,7 @@ CREATE TABLE CAMPO (
     FOREIGN KEY (id_localizacao) REFERENCES LOCALIZACAO(id_localizacao) ON DELETE RESTRICT,
     FOREIGN KEY (id_agua) REFERENCES AGUA(id_agua) ON DELETE RESTRICT,
     FOREIGN KEY (id_alimento) REFERENCES ALIMENTO(id_alimento) ON DELETE RESTRICT
+    FOREIGN KEY (id_componentes) REFERENCES COMPONENTES(id_componentes) ON DELETE RESTRICT
 );
 
 CREATE TABLE CAMPO_COMPONENTES (
