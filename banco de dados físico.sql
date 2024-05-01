@@ -48,7 +48,7 @@ CREATE TABLE ALIMENTO (
     data_plantacao DATE,
     tipo_alimento VARCHAR(200),
     periodo_plantacao DATE,
-    data_validade_semente DATE,
+    data_validade_semente DATE
 );
 
 CREATE TABLE CAMPO (
