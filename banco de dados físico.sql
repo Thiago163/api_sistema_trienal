@@ -88,11 +88,6 @@ ALTER TABLE ALIMENTO ADD CONSTRAINT FK_ALIMENTO_1
     REFERENCES AGUA (id_agua)
     ON DELETE RESTRICT;
 
-ALTER TABLE ALIMENTO ADD CONSTRAINT FK_ALIMENTO_2
-    FOREIGN KEY (id_alimento)
-    REFERENCES CAMPO (id_alimento)
-    ON DELETE RESTRICT;
-
 ALTER TABLE CAMPO ADD CONSTRAINT FK_CAMPO_1
     FOREIGN KEY (id_localizacao)
     REFERENCES LOCALIZACAO (id_localizacao)
@@ -117,3 +112,52 @@ ALTER TABLE CAMPO_COMPONENTES ADD CONSTRAINT FK_CAMPO_COMPONENTES_2
     FOREIGN KEY (id_componentes)
     REFERENCES COMPONENTES (id_componentes)
     ON DELETE RESTRICT;
+    
+    -- Inserir dados na tabela LOCALIZACAO
+INSERT INTO LOCALIZACAO (cep, estado, cidade, rua, numero, pais, complemento) 
+VALUES 
+('12345-678', 'São Paulo', 'São Paulo', 'Rua Exemplo', '123', 'Brasil', 'Apt 101'),
+('54321-876', 'Rio de Janeiro', 'Rio de Janeiro', 'Av. Modelo', '456', 'Brasil', 'Casa 2'),
+('98765-432', 'Belo Horizonte', 'Minas Gerais', 'R. Teste', '789', 'Brasil', 'Loja 3');
+
+-- Inserir dados na tabela USUARIO
+INSERT INTO USUARIO (id_localizacao, documento, tipo_documento, nome, email, telefone, senha) 
+VALUES 
+(1, 123456789, 'RG', 'João Silva', 'joao@example.com', '(11) 91234-5678', 'senha123'),
+(2, 987654321, 'CPF', 'Maria Souza', 'maria@example.com', '(21) 99876-5432', 'abcd9876'),
+(3, 111222333, 'CPF', 'Pedro Oliveira', 'pedro@example.com', '(31) 98765-4321', 'qwerty');
+
+-- Inserir dados na tabela AGUA
+INSERT INTO AGUA (previsao_proxima_irrigacao, quantidade_agua_muda, quantidade_agua_campo, frequencia_irrigacao) 
+VALUES 
+('2024-05-05', 10.5, 50.2, '2024-05-10'),
+('2024-05-06', 9.8, 48.5, '2024-05-11'),
+('2024-05-07', 11.2, 55.0, '2024-05-12');
+
+-- Inserir dados na tabela COMPONENTES
+INSERT INTO COMPONENTES (marca_adubo, previsao_proxima_adubo, tipo_adubo, data_validade_adubo) 
+VALUES 
+('Adubo XYZ', '2024-05-08', 'Orgânico', '2025-05-08'),
+('Adubo ABC', '2024-05-09', 'Químico', '2025-05-09'),
+('Adubo DEF', '2024-05-10', 'Orgânico', '2025-05-10');
+
+-- Inserir dados na tabela ALIMENTO
+INSERT INTO ALIMENTO (nome_alimento, marca_semente, data_plantacao, tipo_alimento, periodo_plantacao, data_validade_semente) 
+VALUES 
+('Tomate', 'Semente A', '2024-04-01', 'Vegetal', '2024-10-01', '2025-04-01'),
+('Alface', 'Semente B', '2024-04-05', 'Vegetal', '2024-10-05', '2025-04-05'),
+('Cenoura', 'Semente C', '2024-04-10', 'Vegetal', '2024-10-10', '2025-04-10');
+
+-- Inserir dados na tabela CAMPO
+INSERT INTO CAMPO (id_localizacao, id_agua, id_alimento, id_componentes, quantidade_mudas, tamanho_campo, qualidade_solo, tipo_solo, data_ultima_colheita, previsao_colheita, estacao_ano) 
+VALUES 
+(1, 1, 1, 1, 1000, 500.0, 'Fértil', 'Argiloso', '2024-04-15', '2024-07-15', 'Verão'),
+(2, 2, 2, 2, 800, 400.0, 'Bom', 'Arenoso', '2024-04-20', '2024-07-20', 'Verão'),
+(3, 3, 3, 3, 1200, 600.0, 'Regular', 'Arenoso', '2024-04-25', '2024-07-25', 'Verão');
+
+-- Inserir dados na tabela CAMPO_COMPONENTES
+INSERT INTO CAMPO_COMPONENTES (id_campo, id_componentes) 
+VALUES 
+(1, 1),
+(2, 2),
+(3, 3);
