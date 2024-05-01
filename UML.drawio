@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-01T17:09:02.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="g-81uB8aort4huPF8NRm" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-01T17:16:42.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="T4rci2hu43MPMIoYvjzl" version="24.3.0" type="github">
   <diagram name="Page-1" id="w-fp3CN7Coq_JwAz8tq3">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="W4JFrDRcNgdEvL82n0Vw-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="415" y="80" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="W4JFrDRcNgdEvL82n0Vw-2" value="Usuario, ja é cadastrado?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W4JFrDRcNgdEvL82n0Vw-2" value="Acessar tela de login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="358" y="140" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W4JFrDRcNgdEvL82n0Vw-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="W4JFrDRcNgdEvL82n0Vw-2" target="W4JFrDRcNgdEvL82n0Vw-1">
