@@ -18,7 +18,7 @@ CREATE TABLE USUARIO (
     id_localizacao INTEGER,
     documento INTEGER,
     tipo_documento VARCHAR(20),
-    nome VARCHAR(100),
+    nome VARCHAR(300),
     email VARCHAR(100),
     telefone VARCHAR(20),
     senha VARCHAR(100),
@@ -43,10 +43,10 @@ CREATE TABLE COMPONENTES (
 
 CREATE TABLE ALIMENTO (
     id_alimento INTEGER NOT NULL PRIMARY KEY IDENTITY,
-    nome_alimento VARCHAR(100),
-    marca_semente VARCHAR(100),
+    nome_alimento VARCHAR(200),
+    marca_semente VARCHAR(200),
     data_plantacao DATE,
-    tipo_alimento VARCHAR(50),
+    tipo_alimento VARCHAR(200),
     periodo_plantacao DATE,
     data_validade_semente DATE,
 );
